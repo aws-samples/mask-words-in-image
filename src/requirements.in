@@ -1,0 +1,4 @@
+numpy
+pillow
+boto3
+pyyaml
