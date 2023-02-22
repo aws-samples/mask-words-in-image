@@ -1,0 +1,2 @@
+rules:
+  - '\d{12}' # AWS account id
