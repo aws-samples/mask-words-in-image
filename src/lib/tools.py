@@ -48,12 +48,12 @@ def mask_texts_in_image(
                     left, upper, right, lower = map(
                         int,
                         (
-                            (left_ratio + (index + 1) / len(text) * width_ratio)
+                            (left_ratio + index / len(text) * width_ratio)
                             * image_width,
                             top_ratio * image_height,
                             (
                                 left_ratio
-                                + ((index + 1) / len(text) + len(keyword) / len(text))
+                                + (index / len(text) + len(keyword) / len(text))
                                 * width_ratio
                             )
                             * image_width,
