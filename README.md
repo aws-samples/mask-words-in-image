@@ -10,6 +10,8 @@ A tool that can mask words in an image file. User specifies which words should b
 
 Under the hood, it use the Text Detection capability in [Amazon Rekognition](https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html) or [AWS Textract](https://docs.aws.amazon.com/textract/latest/dg/what-is.html) to detect the texts in the image, then use [Amazon Comprehend](https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html) to detect PII entities in texts.
 
+There are many use cases for such tooling, e.g masking sensitive information (PII) in the shared images on social media, 2nd hand car sales website and so on. The repository also includes a [sample code](./src/mask_it_bot.py) of using this tool to detect and mask senstive information in Slack.
+
 ## Requirements
 
 - Python 3.8+
