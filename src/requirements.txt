@@ -10,6 +10,12 @@ botocore==1.29.73
     # via
     #   boto3
     #   s3transfer
+certifi==2023.5.7
+    # via requests
+charset-normalizer==3.1.0
+    # via requests
+idna==3.4
+    # via requests
 jmespath==1.0.1
     # via
     #   boto3
@@ -22,9 +28,17 @@ python-dateutil==2.8.2
     # via botocore
 pyyaml==6.0
     # via -r requirements.in
+requests==2.31.0
+    # via -r requirements.in
 s3transfer==0.6.0
     # via boto3
 six==1.16.0
     # via python-dateutil
+slack-bolt==1.18.0
+    # via -r requirements.in
+slack-sdk==3.21.3
+    # via slack-bolt
 urllib3==1.26.14
-    # via botocore
+    # via
+    #   botocore
+    #   requests
