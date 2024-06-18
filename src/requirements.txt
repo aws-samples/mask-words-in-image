@@ -38,7 +38,7 @@ slack-bolt==1.18.0
     # via -r requirements.in
 slack-sdk==3.21.3
     # via slack-bolt
-urllib3==1.26.18
+urllib3==1.26.19
     # via
     #   botocore
     #   requests
